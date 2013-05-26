@@ -1,0 +1,19 @@
+---
+layout: default
+title: GWS:HOME
+description: blog about mobile technology
+group: navigation
+---
+
+{% for post in site.posts %}
+<article>
+  <header>
+    <h2>
+        <a href="{{ post.url }}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a>
+    </h2>
+    <h5><time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time></h5>
+  </header>
+  <p>{{ post.excerpt }}</p>
+</article>
+{% endfor %}
+

@@ -1,16 +1,20 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+<div class="row">
+  <div class="col col-lg-5">
+    <div class="post-header">
+     <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+    </div>
+  </div>
 </div>
 
 <div class="row">
-  <div class="col col-lg-6">
-    <div class="date">
+  <div class="col col-lg-5">
+    <div class="post-date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
-    <div class="content">
+    <div class="post-content">
       {{ content }}
     </div>
-<div class="share">
+<div class="post-share">
 {% include JB/sharing %}
 </div>
   

@@ -22,7 +22,7 @@ Small menu bar, small footer, special fonts for text, flat Ui colors.
 
 title
 tagline
-navigation
+group
 
 
 ## Post
