@@ -12,37 +12,40 @@
   
   <div class="container">
    <div class="row">
-   <!-- Left Menu -->
-   <div class="col col-lg-3">
-    
-      <ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
-        {% assign pages_list = site.pages %}
+     <div class="col col-lg-3 left-column">
+        <!-- left menu -->
+        
+        <ul class="nav nav-pills nav-stacked left-menu" style="max-width: 300px;">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'home' %}
+            {% include JB/pages_list %}
+            {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
-        <!-- footer -->
+        </ul>
+        <div class="site-description"> 
+           {% include themes/modernism/sitedescription.html %}
+        </div>
+        <!-- footer -->   
         <footer>
-     {% include footer-colophon.html %}
-    </footer>
-      </ul>
-      <!-- tag cloud -->
+          {% include footer-colophon.html %}
+        </footer>  
+        <!-- tag cloud -->
+        <div class="tagcloud">
       
-      
-      {% include JB/tagcloud %}
-      
-    </div>
-    <!-- content -->
-    <div class="col col-lg-5">
+        {% include JB/tagcloud %}
+        </div>  
+     </div> <!-- end column -->
+     <!-- content -->
+    <div class="col col-lg-5 right-column">
        <div class="content">
        {{ content }}
        </div>
-       </div>
-    </div> <!-- end row -->
-</div>
-
-  
-  
+     </div>
+   </div>  <!-- end row -->
+  </div> <!-- end container -->
       <!-- analytics include -->
       {% include JB/analytics %}
       <!-- footer js includes -->
       {% include themes/modernism/footer-includes.html %}
-   </body>
+</body>

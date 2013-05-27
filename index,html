@@ -2,7 +2,7 @@
 layout: default
 title: GWS:HOME
 description: blog about mobile technology
-group: navigation
+group: home
 ---
 
 {% for post in site.posts %}

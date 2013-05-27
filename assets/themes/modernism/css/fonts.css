@@ -1,48 +1,49 @@
 /*
  * fonts, suggested parings..do not like than supply your own
  */
+
 /*
  * Roboto, sans serif
  */
 @font-face{
     font-family: 'RobotoBlack';
-    src: url('/fonts/Roboto-Black.ttf') format('truetype');
+    src: url('../././fonts/Roboto-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'RobotoLight';
-    src: url('/fonts/Roboto-Light.ttf') format('truetype');
+    src: url('../././fonts/Roboto-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'RobotoMedium';
-    src: url('/fonts/Roboto-Medium.ttf') format('truetype');
+    src: url('../././fonts/Roboto-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'RobotoRegular';
-    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../././fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'RobotoThin';
-    src: url('/fonts/Roboto-Thin.ttf') format('truetype');
+    src: url('../././fonts/Roboto-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: 'RobotoBold';
-    src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('../././fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 @font-face{
     font-family: 'RobotoBlackItalic';
-    src: url('/fonts/Roboto-BlackItalic.ttf') format('truetype');
+    src: url('../././fonts/Roboto-BlackItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }

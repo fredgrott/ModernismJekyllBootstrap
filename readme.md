@@ -32,3 +32,16 @@ tagline
 date
 categories
 tags
+
+# New in Jekyll 1.x
+
+## excerpt 
+
+is fist paragaph followed by a blank linein markdown.
+
+## gist
+
+Liquid gist tag  and gistnumber
+
+
+
